@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fce4ec;
+  text-align: center;
+}
+
+.camera-container {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+video, canvas, .frame {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+canvas {
+  display: none;
+}
+
+.frame {
+  pointer-events: none;
+}
+
+.botoes {
+  margin-top: 520px;
+}
+
+button, a {
+  margin: 10px;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff69b4;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
